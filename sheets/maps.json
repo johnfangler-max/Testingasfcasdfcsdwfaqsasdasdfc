@@ -1,0 +1,2 @@
+{"sheet":"maps","note":"One Pandora map for v1. map_object is verified later from the game's files.","columns":["id","display_name","map_object","bomb_site","player_spawn","ally_spawns","enemy_spawns","status"],
+"rows":[{"id":"m_arena1","display_name":"TBD Pandora arena","map_object":null,"bomb_site":null,"player_spawn":null,"ally_spawns":null,"enemy_spawns":null,"status":"unfilled:all_coordinates"}]}

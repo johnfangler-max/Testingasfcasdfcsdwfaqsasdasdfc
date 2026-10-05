@@ -1,0 +1,10 @@
+{"sheet":"economy","note":"CS-style money rules. Each row is one rule.","columns":["id","trigger","amount","cap","applies_to","status"],
+"rows":[
+{"id":"e_start","trigger":"match_start","amount":800,"cap":null,"applies_to":"player","status":"ok"},
+{"id":"e_kill","trigger":"kill","amount":"weapons.kill_reward","cap":null,"applies_to":"player","status":"ok"},
+{"id":"e_plant","trigger":"bomb_planted","amount":300,"cap":null,"applies_to":"planter","status":"ok"},
+{"id":"e_defuse","trigger":"bomb_defused","amount":300,"cap":null,"applies_to":"defuser","status":"ok"},
+{"id":"e_win","trigger":"round_won","amount":3250,"cap":null,"applies_to":"player","status":"ok"},
+{"id":"e_loss","trigger":"round_lost","amount":1400,"cap":3400,"applies_to":"player","status":"ok","escalation":"+500 per consecutive loss"},
+{"id":"e_cap","trigger":"always","amount":16000,"cap":16000,"applies_to":"player","status":"ok","note":"max cash"}
+]}

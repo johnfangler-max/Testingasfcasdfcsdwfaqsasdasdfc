@@ -1,0 +1,6 @@
+{"sheet":"bots","note":"Enemy and ally archetypes. game_archetype references existing game pawns; null until verified.","columns":["id","role","side","health_tier","behavior","weapon_ref","game_archetype","status"],
+"rows":[
+{"id":"b_enemy_light","role":"enemy","side":"hyperion","health_tier":1,"behavior":"rush_site_or_defend","weapon_ref":"w_smg","game_archetype":null,"status":"unfilled:game_archetype"},
+{"id":"b_enemy_heavy","role":"enemy","side":"hyperion","health_tier":3,"behavior":"hold_position","weapon_ref":"w_rifle","game_archetype":null,"status":"unfilled:game_archetype"},
+{"id":"b_ally","role":"ally","side":"player","health_tier":2,"behavior":"follow_player_and_shoot","weapon_ref":"w_rifle","game_archetype":null,"status":"unfilled:game_archetype"}
+]}

@@ -1,0 +1,8 @@
+{"sheet":"weapons","note":"One row per buyable gun. Prices/damage are design targets, tunable. game_object is filled only after inspecting the game (null = unverified).","columns":["id","display_name","class","price","kill_reward","clip_size","damage_tier","element","game_object","status"],
+"rows":[
+{"id":"w_pistol","display_name":"Sidearm","class":"pistol","price":200,"kill_reward":300,"clip_size":12,"damage_tier":1,"element":"none","game_object":null,"status":"unfilled:game_object"},
+{"id":"w_smg","display_name":"Rush SMG","class":"smg","price":1200,"kill_reward":300,"clip_size":30,"damage_tier":2,"element":"none","game_object":null,"status":"unfilled:game_object"},
+{"id":"w_shotgun","display_name":"Breacher","class":"shotgun","price":1500,"kill_reward":900,"clip_size":8,"damage_tier":3,"element":"none","game_object":null,"status":"unfilled:game_object"},
+{"id":"w_rifle","display_name":"Pandora Rifle","class":"assault_rifle","price":2700,"kill_reward":300,"clip_size":30,"damage_tier":3,"element":"none","game_object":null,"status":"unfilled:game_object"},
+{"id":"w_sniper","display_name":"Longshot","class":"sniper","price":4750,"kill_reward":100,"clip_size":5,"damage_tier":5,"element":"none","game_object":null,"status":"unfilled:game_object"}
+]}

@@ -1,0 +1,14 @@
+{"sheet":"melty_listing","note":"Draft listing. Credits, license and remix choice are NOT decided: ask the author. Real screenshot/clip required before publishing.","columns":["field","value","status"],
+"rows":[
+{"field":"title","value":"Pandora Defuse","status":"draft"},
+{"field":"tagline","value":"Plant it, defend it, buy better guns. Counter-Strike rounds on Pandora.","status":"draft"},
+{"field":"description","value":"A solo best-of-5 bomb-plant/defuse match against Hyperion bots with AI teammates. Earn cash for kills, plants and defuses, and spend it in the buy phase each round. Counter-Strike's round rules, played in Borderlands: The Pre-Sequel.","status":"draft"},
+{"field":"required_games","value":["Borderlands: The Pre-Sequel"],"status":"to confirm with Melty search_games"},
+{"field":"inspiration_only","value":["Counter-Strike: Source (rules only, no assets)"],"status":"decided"},
+{"field":"multiplayer","value":false,"status":"decided"},
+{"field":"credits","value":null,"status":"unfilled: ask author"},
+{"field":"license","value":null,"status":"unfilled: ask author"},
+{"field":"remix_allowed","value":null,"status":"unfilled: ask author"},
+{"field":"loader","value":"pyunrealsdk (confirm Melty installs it via game_info)","status":"unverified"},
+{"field":"screenshot","value":null,"status":"unfilled: capture real gameplay"}
+]}

@@ -1,0 +1,12 @@
+{"sheet":"hooks","note":"Every place the mod touches the game. All unverified until the game is inspected with the SDK.","columns":["id","purpose","needs","game_function_or_class","verified","status"],
+"rows":[
+{"id":"h_load_map","purpose":"Load the arena map and start the match","needs":"maps.map_object","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_give_weapon","purpose":"Give the player a purchased gun, remove cash","needs":"weapons.game_object","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_cash","purpose":"Track and display cash","needs":"economy","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_buy_menu","purpose":"Open the buy menu during the buy phase (key binding or in-game menu)","needs":"weapons","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_spawn_bot","purpose":"Spawn enemies and allies","needs":"bots.game_archetype","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_on_kill","purpose":"Detect kills for rewards","needs":"economy.e_kill","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_bomb","purpose":"Bomb object: plant, countdown, defuse (custom interaction)","needs":"rounds, maps.bomb_site","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_round_reset","purpose":"Reset players, bots and bomb between rounds, keep cash","needs":"rounds","game_function_or_class":null,"verified":false,"status":"unverified"},
+{"id":"h_hud","purpose":"Show cash, round timer, score","needs":"rounds, economy","game_function_or_class":null,"verified":false,"status":"unverified"}
+]}

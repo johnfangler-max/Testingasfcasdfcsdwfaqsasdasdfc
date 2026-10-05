@@ -1,0 +1,2 @@
+{"sheet":"rounds","note":"Single row of match rules.","columns":["id","first_to_wins","buy_time_s","round_time_s","bomb_timer_s","plant_time_s","defuse_time_s","teammates","enemies_per_round","player_side","status"],
+"rows":[{"id":"r_default","first_to_wins":3,"buy_time_s":15,"round_time_s":115,"bomb_timer_s":40,"plant_time_s":3,"defuse_time_s":10,"teammates":3,"enemies_per_round":4,"player_side":"alternates_each_round","status":"ok"}]}
